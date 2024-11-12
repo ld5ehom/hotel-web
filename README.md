@@ -17,7 +17,8 @@
 -   [Scroll-lock](https://www.npmjs.com/package/scroll-lock)
 -   [Faker.js](https://fakerjs.dev/guide/)
 -   [Intersection Observer Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
--   [Supabase](https://fakerjs.dev/guide/)
+-   [Supabase](https://supabase.com/)
+-   [Prisma](https://prisma.io)
 
 ---
 
@@ -133,55 +134,20 @@ yarn prettier . --write
 yarn add eslint-config-prettier eslint-plugin-prettier --dev
 ```
 
--   **react hook form**:
+-   **Prisma**:
 
 ```
-yarn add react-hook-form
-
+yarn add --dev prisma ts-node
 ```
 
--   **storybook**:
-
 ```
-yarn dlx storybook@latest init
-yarn add storybook@latest
-
+npx prisma init
 ```
 
--   **classnames**:
-
 ```
-yarn add classnames
-
+yarn add @prisma/client
 ```
 
--   **day.js**:
-
 ```
-yarn add dayjs
-
-```
-
--   **Scroll-lock**:
-
-```
-yarn add scroll-lock
-yarn add -D @types/scroll-lock
-
-```
-
--   **Mock Data Setup**:
-
-```
-yarn add @faker-js/faker -D
-
-```
-
--   **Infinite Scroll and Carousel**:
-
-```
-yarn add react-intersection-observer
-yarn add react-responsive-carousel
-
-
+npx prisma migrate dev
 ```
