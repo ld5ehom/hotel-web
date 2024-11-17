@@ -19,6 +19,7 @@
 -   [Intersection Observer Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 -   [Supabase](https://supabase.com/)
 -   [Prisma](https://prisma.io)
+-   [React-icons](https://react-icons.github.io/react-icons/)
 
 ---
 
@@ -37,7 +38,11 @@
 
 -   **Issues** : [task-1-layout](https://github.com/ld5ehom/house-web/tree/task-1-layout)
 -   **Details** :
-    -   **Common Components**
+    -   **Commom Layout**
+        -   Created a shared layout for the Navbar and Footer using Tailwind CSS for consistent styling across the application.
+            ```
+            yarn add react-icons
+            ```
 
 **Task 2: Main Page**
 
@@ -72,15 +77,19 @@
 ## Start
 
 ```
+
 yarn install
+
 ```
 
 ```
+
 yarn dev
 
 ```
 
 ```
+
 yarn storybook
 
 ```
@@ -88,7 +97,9 @@ yarn storybook
 -   **storybook start**:
 
 ```
+
 npm run storybook
+
 ```
 
 ---
@@ -98,56 +109,88 @@ npm run storybook
 -   **Homebrew (macOS terminal)**:
 
 ```
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 ```
 
 -   **git (homebrew)**:
 
 ```
+
 brew install git
+
 ```
 
 -   **node.js (homebrew)**:
 
 ```
+
 brew install node
+
 ```
 
 -   **ESLint**:
 
 ```
+
 yarn add eslint --dev
 npx eslint --init
 yarn lint
 yarn lint --quiet
+
 ```
 
 -   **Prettier**:
 
 ```
+
 yarn add --dev --exact prettier
 node --eval "fs.writeFileSync('.prettierrc','{}\n')"
 yarn prettier . --write
+
 ```
 
 ```
+
 yarn add eslint-config-prettier eslint-plugin-prettier --dev
+
 ```
 
 -   **Prisma**:
 
 ```
+
 yarn add --dev prisma ts-node
+
 ```
 
 ```
+
 npx prisma init
+
 ```
 
 ```
+
 yarn add @prisma/client
+
 ```
 
 ```
+
 npx prisma migrate dev
+
+```
+
+-   **Classnames**:
+
+```
+
+yarn add classnames
+
+```
+
+```
+
 ```
