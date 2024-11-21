@@ -18,7 +18,7 @@
 -   [Faker.js](https://fakerjs.dev/guide/)
 -   [Intersection Observer Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 -   [Supabase](https://supabase.com/)
--   [Prisma](https://prisma.io)
+-   [Prisma](https://prisma.io/docs)
 -   [React-icons](https://react-icons.github.io/react-icons/)
 
 ---
@@ -45,6 +45,16 @@
             ```
 
 **Task 2: Main Page**
+
+-   **Issues** : [task-2-main](https://github.com/ld5ehom/house-web/tree/task-2-main)
+-   **Details** :
+
+    -   **Main Page Search Filter**
+        -   Implemented a dynamic search filter on the main page to allow users to search by location, check-in and check-out dates, and the number of guests.
+        -   Incorporated Day.js to handle date selection and formatting, adhering to the MM/DD/YYYY format for US standards.
+            ```
+            yarn add classnames dayjs
+            ```
 
 **Task 3: Map Page**
 
