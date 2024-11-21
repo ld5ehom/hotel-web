@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 /**
  * Footer Bar
  */
@@ -14,24 +16,24 @@ export default function Footer() {
                 </div>
                 <ul className="flex flex-wrap gap-4 md:gap-6 items-center text-sm text-white mt-2 sm:mt-0">
                     <li>
-                        <a href="#" className="hover:underline">
+                        <Link href="/" className="hover:underline">
                             Emergency
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">
+                        <Link href="/" className="hover:underline">
                             Accessibility
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">
+                        <Link href="/" className="hover:underline">
                             Report Misconduct
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">
+                        <Link href="/" className="hover:underline">
                             Privacy & Terms of Use
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
