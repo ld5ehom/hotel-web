@@ -20,6 +20,8 @@
 -   [Supabase](https://supabase.com/)
 -   [Prisma](https://prisma.io/docs)
 -   [React-icons](https://react-icons.github.io/react-icons/)
+-   [Classnames](https://www.npmjs.com/package/classnames/)
+-   [Recoil](https://www.recoiljs.org/ko)
 
 ---
 
@@ -48,12 +50,20 @@
 
 -   **Issues** : [task-2-main](https://github.com/ld5ehom/house-web/tree/task-2-main)
 -   **Details** :
-
-    -   **Main Page Search Filter**
+    -   **Main Page Search Filter** [669bedf](https://github.com/ld5ehom/house-web/commit/669bedfbaf1fe8905904dbe948e2dab1a8a11295)
         -   Implemented a dynamic search filter on the main page to allow users to search by location, check-in and check-out dates, and the number of guests.
         -   Incorporated Day.js to handle date selection and formatting, adhering to the MM/DD/YYYY format for US standards.
             ```
             yarn add classnames dayjs
+            ```
+    -   **Search Filter Update**
+        -   Implemented a calendar component for check-in and check-out using React-Calendar.
+            ```
+            yarn add react-calendar
+            ```
+        -   Recoil: Recoil has been integrated to manage the global state for filters, enabling efficient and seamless state management. It allows the application to maintain a synchronized state for filters, including location, check-in date, check-out date, and the number of guests.
+            ```
+            yarn add recoil
             ```
 
 **Task 3: Map Page**

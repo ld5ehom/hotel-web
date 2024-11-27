@@ -1,5 +1,9 @@
+'use client'
+
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+
+import { RecoilRoot } from 'recoil'
 
 interface Props {
     children?: React.ReactNode
@@ -8,6 +12,10 @@ interface Props {
 /**
  * Main Page Providers
  */
+export const HouseProvider = ({ children }: Props) => {
+    return <RecoilRoot>{children}</RecoilRoot>
+}
+
 export const HouseLayout = ({ children }: Props) => {
     return (
         <>
